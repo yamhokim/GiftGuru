@@ -9,6 +9,6 @@ class Gift(models.Model):
     category = models.CharField(max_length=255)
 
 class Recommendation(models.Model):
-    # user = models.ForeignKey('users.CustomUser', on_delete=models.CASCADE)
-    # gift = models.ForeignKey(Gift, on_delete=models.CASCADE)
+    user = models.ForeignKey('users.CustomUser', on_delete=models.CASCADE)
+    gift = models.ForeignKey(Gift, on_delete=models.CASCADE)
     date_recommended = models.DateTimeField(auto_now_add=True)
