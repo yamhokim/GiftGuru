@@ -1,4 +1,4 @@
-# GiftGuru 🎁
+# <i>GiftGuru</i> 🎁 by YamHo
 
 <p id="top" />
 GiftGuru is an online web app designed to make gift-giving easy and fun for everyone. Whether you're planning for Christmas, valentines, a birthday, an anniversary, or a Secret Santa, GiftGuru provides a collaborative platform to find and share the perfect gifts.
@@ -127,6 +127,6 @@ npm install
 npm start
 ```
 
-## Thank you for checking out the project 😊
+## Thank you for checking out the project 😊 ~ YamHo
 
 <p><a href="#top">Back to Top</a></p>
