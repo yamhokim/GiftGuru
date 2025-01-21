@@ -1,0 +1,5 @@
+Responsibilities:
+- Provides information about the product (image, name, price, description, category)
+
+Models:
+- Product: Provides fields regarding information about the product

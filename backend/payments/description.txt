@@ -1,0 +1,6 @@
+Responsibilities:
+- Manage payments using Stripe or other payment gateways
+- Track payment statuses (e.g. success, failure)
+
+Models:
+- Payment: Tracks payment details (amount, status, user)

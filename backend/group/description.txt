@@ -1,0 +1,8 @@
+Responsibilities:
+- Create and manage groups
+- Assign users to a group
+- Link groups to specific themes
+
+Models:
+- Group: Represents a group (theme, description, creation date, due date)
+- GroupMember: Tracks users in groups (with roles if needed)

@@ -1,0 +1,7 @@
+Responsibilities:
+- User registration, login, and authentication
+- User profiles (e.g. names, profile pictures, address, phone number, etc.)
+
+Models:
+- UserInfo: Keeps track of users personal info (username, password, profile picture, age, birthday)
+- OrderInfo: Keeps track of information related to ordered gift (username, ordered item, card number, address, paid status, paid date, price, delivered status, delivered date, UserAccount)

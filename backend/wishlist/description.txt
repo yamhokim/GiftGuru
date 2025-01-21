@@ -1,0 +1,7 @@
+Responsibilities:
+- Manage wishlists for each user.
+- Allow users to add/edit/remove items in their wishlists
+
+Models:
+- Wishlist: Represents a user's wishlist
+- WishListItem: Represents individual gift ideas (e.g. name, link, category)
