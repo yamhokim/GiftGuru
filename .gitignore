@@ -28,3 +28,5 @@ __pycache__
 venv
 backend/db.sqlite3
 
+# Random
+backend/superuserinfo.txt
