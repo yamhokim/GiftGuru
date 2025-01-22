@@ -41,10 +41,6 @@ INSTALLED_APPS = [
     "rest_framework",
 
     "user_account",
-    "product",
-    "group",
-    "wishlist",
-    "payments",
 ]
 
 MIDDLEWARE = [
@@ -134,7 +130,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # cors origin
 CORS_ALLOW_ALL_ORIGINS = True
 
-AUTH_USER_MODEL = 'user_account.User'
+AUTH_USER_MODEL = 'user_account.CustomUser'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
