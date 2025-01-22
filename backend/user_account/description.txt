@@ -3,5 +3,9 @@ Responsibilities:
 - User profiles (e.g. names, profile pictures, address, phone number, etc.)
 
 Models:
-- UserInfo: Keeps track of users personal info (username, password, profile picture, age, birthday)
+- PaymentInfo: Keeps track of users personal info (username, password, profile picture, age, birthday)
 - OrderInfo: Keeps track of information related to ordered gift (username, ordered item, card number, address, paid status, paid date, price, delivered status, delivered date, UserAccount)
+- AddressInfo: Keeps track of the user's address info (City, State/Province, Country, Postal/Zip code, etc.)
+
+https://www.youtube.com/watch?v=v6UWFq_uqlQ&ab_channel=CodeWithClinton
+https://www.youtube.com/watch?v=7m8V909bt2c&ab_channel=CodeWithClinton

@@ -39,6 +39,12 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "corsheaders",
     "rest_framework",
+
+    "user_account",
+    "product",
+    "group",
+    "wishlist",
+    "payments",
 ]
 
 MIDDLEWARE = [
@@ -127,3 +133,15 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # cors origin
 CORS_ALLOW_ALL_ORIGINS = True
+
+AUTH_USER_MODEL = 'user_account.User'
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ],
+}
+
+SIMPLE_JWT = {
+    'AUTH_HEADER_TYPES': ('Bearer',),
+}
